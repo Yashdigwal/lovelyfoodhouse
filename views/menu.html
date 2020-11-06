@@ -1,0 +1,140 @@
+<html>
+<head>
+	<title>Dish-Menu</title>
+<script type="text/javascript" src="menu.js"></script>
+</head>
+<body style="background-image: url(img/menu2.jpg); background-size: 1362px">
+	<h1 align="center" style="text-transform: uppercase; margin-left: 575px; margin-top: 70px">restaurants menu</h1>
+<div id="wrapper">
+<table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1 style="margin-left: 585px; margin-top: 30px; background-image: url(img/background2.jpg); color: white;text-align: center;">
+<tr>
+<th>Dish Name</th>
+<th>Dish Price</th>
+<th>Today Discount(%)</th>
+<th>Option</th>
+</tr>
+
+<tr id="row1">
+<td id="dish_row1">Thali</td>
+<td id="price_row1">60Rs</td>
+<td id="discount_row1">10%</td>
+<td>
+<input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')"style="background-color: #4dffff ; color: white; border-radius: 10px;border:none">
+<input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')"style="background-color: #4dff4d ; color: white; border-radius: 10px;border:none">
+<input type="button" value="Delete" class="delete" onclick="delete_row('1')"style="background-color: red ; color: white; border-radius: 10px;border:none">
+</td>
+</tr>
+
+<tr id="row2">
+<td id="dish_row2">Ricebowl</td>
+<td id="price_row2">70Rs</td>
+<td id="discount_row2">20%</td>
+<td>
+<input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')"style="background-color: #4dffff ; color: white; border-radius: 10px;border:none">
+<input type="button" id="save_button2" value="Save" class="save" onclick="save_row('2')"style="background-color: #4dff4d ; color: white; border-radius: 10px;border:none">
+<input type="button" value="Delete" class="delete" onclick="delete_row('2')" style="background-color: red ; color: white; border-radius: 10px;border:none">
+</td>
+</tr>
+
+<tr id="row3">
+<td id="dish_row3">Paratha With Butter</td>
+<td id="price_row3">30Rs</td>
+<td id="discount_row3">10%</td>
+<td>
+<input type="button" id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')"style="background-color: #4dffff ; color: white; border-radius: 10px;border:none">
+<input type="button" id="save_button3" value="Save" class="save" onclick="save_row('3')"style="background-color: #4dff4d ; color: white; border-radius: 10px;border:none">
+<input type="button" value="Delete" class="delete" onclick="delete_row('3')"style="background-color: red ; color: white; border-radius: 10px;border:none">
+</td>
+</tr>
+
+<tr id="row4">
+<td id="dish_row4">Allu Paratha</td>
+<td id="price_row4">30Rs</td>
+<td id="discount_row4">10%</td>
+<td>
+<input type="button" id="edit_button4" value="Edit" class="edit" onclick="edit_row('4')"style="background-color: #4dffff ; color: white; border-radius: 10px;border:none">
+<input type="button" id="save_button4" value="Save" class="save" onclick="save_row('4')"style="background-color: #4dff4d ; color: white; border-radius: 10px;border:none">
+<input type="button" value="Delete" class="delete" onclick="delete_row('4')"style="background-color: red ; color: white; border-radius: 10px;border:none">
+</td>
+</tr>
+
+<tr id="row5">
+<td id="dish_row5">Mix Paratha</td>
+<td id="price_row5">40Rs</td>
+<td id="discount_row5">15%</td>
+<td>
+<input type="button" id="edit_button5" value="Edit" class="edit" onclick="edit_row('5')"style="background-color: #4dffff ; color: white; border-radius: 10px;border:none">
+<input type="button" id="save_button5" value="Save" class="save" onclick="save_row('5')"style="background-color: #4dff4d ; color: white; border-radius: 10px;border:none">
+<input type="button" value="Delete" class="delete" onclick="delete_row('5')"style="background-color: red ; color: white; border-radius: 10px;border:none">
+</td>
+</tr>
+
+<tr id="row6">
+<td id="dish_row6">Allu Paratha</td>
+<td id="price_row6">30Rs</td>
+<td id="discount_row6">10%</td>
+<td>
+<input type="button" id="edit_button6" value="Edit" class="edit" onclick="edit_row('6')"style="background-color: #4dffff ; color: white; border-radius: 10px;border:none">
+<input type="button" id="save_button6" value="Save" class="save" onclick="save_row('6')"style="background-color: #4dff4d ; color: white; border-radius: 10px;border:none">
+<input type="button" value="Delete" class="delete" onclick="delete_row('6')"style="background-color: red ; color: white; border-radius: 10px;border:none">
+</td>
+</tr>
+
+<tr id="row7">
+<td id="dish_row7">Rajma Rice</td>
+<td id="price_row7">30Rs</td>
+<td id="discount_row7">10%</td>
+<td>
+<input type="button" id="edit_button7" value="Edit" class="edit" onclick="edit_row('7')"style="background-color: #4dffff ; color: white; border-radius: 10px;border:none">
+<input type="button" id="save_button7" value="Save" class="save" onclick="save_row('7')"style="background-color: #4dff4d ; color: white; border-radius: 10px;border:none">
+<input type="button" value="Delete" class="delete" onclick="delete_row('7')"style="background-color: red ; color: white; border-radius: 10px;border:none">
+</td>
+</tr>
+
+<tr id="row8">
+<td id="dish_row8">Kadi rice</td>
+<td id="price_row8">30Rs</td>
+<td id="discount_row8">20%</td>
+<td>
+<input type="button" id="edit_button8" value="Edit" class="edit" onclick="edit_row('8')"style="background-color: #4dffff ; color: white; border-radius: 10px;border:none">
+<input type="button" id="save_button8" value="Save" class="save" onclick="save_row('8')"style="background-color: #4dff4d ; color: white; border-radius: 10px;border:none">
+<input type="button" value="Delete" class="delete" onclick="delete_row('8')"style="background-color: red ; color: white; border-radius: 10px;border:none">
+</td>
+</tr>
+
+<tr id="row9">
+<td id="dish_row9">Paneer Bowl</td>
+<td id="price_row9">50Rs</td>
+<td id="discount_row9">15%</td>
+<td>
+<input type="button" id="edit_button9" value="Edit" class="edit" onclick="edit_row('9')"style="background-color: #4dffff ; color: white; border-radius: 10px;border:none">
+<input type="button" id="save_button9" value="Save" class="save" onclick="save_row('9')"style="background-color: #4dff4d ; color: white; border-radius: 10px;border:none">
+<input type="button" value="Delete" class="delete" onclick="delete_row('9')"style="background-color: red ; color: white; border-radius: 10px;border:none">
+</td>
+</tr>
+
+<tr id="row10">
+<td id="dish_row10">Palak Paneer</td>
+<td id="price_row10">60Rs</td>
+<td id="discount_row10">20%</td>
+<td>
+<input type="button" id="edit_button10" value="Edit" class="edit" onclick="edit_row('10')"style="background-color: #4dffff ; color: white; border-radius: 10px;border:none">
+<input type="button" id="save_button10" value="Save" class="save" onclick="save_row('10')"style="background-color: #4dff4d ; color: white; border-radius: 10px;border:none">
+<input type="button" value="Delete" class="delete" onclick="delete_row('4')"style="background-color: red ; color: white; border-radius: 10px;border:none">
+</td>
+</tr>
+
+
+
+<tr>
+<td><input type="text" id="new_dish"></td>
+<td><input type="text" id="new_price"></td>
+<td><input type="text" id="new_discount"></td>
+<td><input type="button" class="add" onclick="add_row();" value="Add Dish"style="background-color:#751aff ; color: white; border-radius: 10px;border:none"></td>
+</tr>
+
+</table>
+</div>
+
+</body>
+</html>
